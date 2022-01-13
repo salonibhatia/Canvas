@@ -1,0 +1,66 @@
+body {
+  text-align: center;
+}
+
+.box {
+  width: 38px;
+  height: 42px;
+  display: inline-block;
+  border: 1px solid rgb(211, 211, 211);
+}
+
+
+h1 {
+  font-family: 'Press Start 2P', cursive;
+  font-weight: normal;
+  font-size: 36px;
+  margin-top: 30px;
+}
+
+.color-picker {
+	width:1000px;
+	height:120px;
+	background-color:lavender ;
+	margin:auto;
+	border-radius:20px;
+  
+}
+
+#canvas {
+  width: 800px;
+  height: 400px;
+  background-color: white;
+  margin: auto;
+  margin-top: 40px;
+}
+
+.colors{
+  width: 40px;
+  height:40px;
+  margin: 5px;
+  border-radius: 50%;
+  border: dotted
+}
+
+div{
+  display:inline-block;
+
+}
+
+
+button {
+ padding: 15px;
+ margin: 10px;
+ font-size: 20px;
+ background-color: black;
+ color: gold;
+}
+
+#select{
+  width:35px;
+  height:35px;
+  margin:5px;
+  border-radius:30%;
+  background-color: darkcyan; 
+}
+

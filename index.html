@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+  <title>Painting</title>
+        <link rel='stylesheet' href="style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <h1>My Canvas</h1>
+
+        <div class="color-picker">
+         <div id="select"></div>
+          <div onclick="changeColor(this)" class="colors" style ="background-color:white;"></div>
+          <div onclick= "changeColor(this)" class="colors" style= "background-color:azure;"> </div>
+          
+            <div onclick= "changeColor(this)"  class="colors" style= "background-color :black;" > </div>
+          
+          <div onclick= "changeColor(this)"  class="colors" style="background-color: red;"> </div>
+          <div onclick= "changeColor(this)"  class="colors" style ="background-color: orange;"></div>
+          <div onclick= "changeColor(this)"  class="colors" style="background-color:yellow;"></div>
+          <div onclick= "changeColor(this)"  class="colors" style="background-color:green;"></div>
+          <div onclick= "changeColor(this)"  class="colors" style="background-color: #191970;"> </div>
+           <div onclick= "changeColor(this)"  class="colors" style ="background-color:indigo;"></div>
+             <div onclick= "changeColor(this)"  class="colors" style ="background-color:violet;"></div>
+              <div onclick="changeColor(this)" class="colors" style="background-color:salmon;"></div> 
+          <div onclick= "changeColor(this)"  class="colors" style ="background-color:pink;"></div>
+          <div onclick= "changeColor(this)"  class="colors" style ="background-color:#148F77;"></div>
+          <div onclick= "changeColor(this)"  class="colors" style ="background-color:lightcoral;"></div>
+            <div onclick= "changeColor(this)" class="colors" style ="background-color:#48C9B0;"></div>
+             <div onclick= "changeColor(this)" class="colors" style ="background-color: #85929E ;"></div>
+              <div onclick= "changeColor(this)" class="colors" style ="background-color: #641E16 ;"></div>
+              <div onclick= "changeColor(this)" class="colors" style ="background-color: #AF7AC5;"></div>
+              <div onclick= "changeColor(this)" class="colors" style ="background-color: #DFFF00 ;"></div>
+               <div onclick= "changeColor(this)" class="colors" style ="background-color: RosyBrown ;"></div>
+                <div onclick= "changeColor(this)" class="colors" style ="background-color: RoyalBlue ;"></div>
+                 <div onclick= "changeColor(this)" class="colors" style ="background-color: AntiqueWhite;"></div>
+                  <div onclick= "changeColor(this)" class="colors" style ="background-color: 	#33DCCB;"></div>
+                   <div onclick= "changeColor(this)" class="colors" style ="background-color: #FF5722;"></div>
+                    <div onclick= "changeColor(this)" class="colors" style ="background-color: #00FF33 ;"></div>
+                     <div onclick= "changeColor(this)" class="colors" style ="background-color:#FFFF99;"></div>
+                     <div onlick = "changeColor(this)" class= "colors" style = "background-color:#F1C40F"> </div>
+                     <div onlick = "changeColor(this)" class = "colors" style ="background-color: #6495ED"></div>
+                      <div onlick = "changeColor(this)" class = "colors" style ="background-color: #AEB6BF "></div>
+                       <div onlick = "changeColor(this)" class = "colors" style ="background-color: #A569BD "></div>
+                       <div onlick = "changeColor(this)" class = "colors" style ="background-color: #21618C "></div>
+                               
+
+        </div>
+         
+  <button onclick = "eraseCanvas();">
+        Clear Canvas 
+        </button>
+        <div id="canvas">
+      </div>
+      <script src="script.js">
+        </script>
